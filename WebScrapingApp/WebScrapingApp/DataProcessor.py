@@ -37,4 +37,4 @@ def start_processing():
     newf.write(jsonstring + ']')
 
     f.close()
-    #os.remove("items.json")
+    os.remove("items.json")
